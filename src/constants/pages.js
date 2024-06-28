@@ -17,6 +17,7 @@ const MemberPage = lazy( () => import( "../pages/MemberPage" ) );
 const PostsPage = lazy( () => import( "../pages/PostsPage" ) );
 const RegisterPage = lazy( () => import( "../pages/RegisterPage" ) );
 const TeamPage = lazy( () => import( "../pages/TeamPage" ) );
+const AbdulazizPage = lazy( () => import( "../pages/AbdulazizPage" ) );
 
 const pages = [
   {
@@ -57,6 +58,11 @@ const pages = [
     url: "posts",
     page: PostsPage,
     name: "Posts"
+  },
+  {
+    url: "abdulaziz",
+    page: AbdulazizPage,
+    name: "Abdulaziz"
   },
 ]
 
