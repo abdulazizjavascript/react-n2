@@ -8,6 +8,7 @@
 // import TeamPage from "../pages/TeamPage";
 
 import { lazy } from "react";
+// import BakhodirPage from '../pages/BakhodirPage'
 
 const AboutPage = lazy( () => import( "../pages/AboutPage" ) );
 const ContactPage = lazy( () => import( "../pages/ContactPage" ) );
@@ -17,6 +18,7 @@ const MemberPage = lazy( () => import( "../pages/MemberPage" ) );
 const PostsPage = lazy( () => import( "../pages/PostsPage" ) );
 const RegisterPage = lazy( () => import( "../pages/RegisterPage" ) );
 const TeamPage = lazy( () => import( "../pages/TeamPage" ) );
+const BakhodirPage = lazy( () => import( "'../pages/BakhodirPage" ) );
 
 const pages = [
   {
@@ -56,6 +58,11 @@ const pages = [
   {
     url: "posts",
     page: PostsPage,
+    name: "Posts"
+  },
+  {
+    url: "posts",
+    page: BakhodirPage,
     name: "Posts"
   },
 ]
