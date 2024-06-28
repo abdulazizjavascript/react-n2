@@ -18,7 +18,6 @@ const PostsPage = lazy( () => import( "../pages/PostsPage" ) );
 const RegisterPage = lazy( () => import( "../pages/RegisterPage" ) );
 const TeamPage = lazy( () => import( "../pages/TeamPage" ) );
 
-
 const pages = [
   {
     url: "",
