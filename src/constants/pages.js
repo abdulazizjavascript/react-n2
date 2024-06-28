@@ -58,6 +58,11 @@ const pages = [
     page: PostsPage,
     name: "Posts"
   },
+  {
+    url: "arslon",
+    page: ArslonPage,
+    name: "Arslon"
+  },
 ]
 
 export { pages }
